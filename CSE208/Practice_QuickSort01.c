@@ -8,7 +8,7 @@ int partition(int arr[],int left,int right)
     for(int j=left; j<right; j++) //j=left
     {
 
-        if(arr[j]<pivot)
+        if(arr[j]<=pivot)
         {
             i++;
             int temp = arr[i];

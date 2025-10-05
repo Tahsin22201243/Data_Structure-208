@@ -5,7 +5,7 @@ int partition(int array[], int left, int right) {
     int i = left - 1;
 
     for (int j = left; j < right; j++) {
-        if (array[j] < pivot) {
+        if (array[j] <= pivot) {
             i++;
             int temp = array[i];
             array[i] = array[j];
